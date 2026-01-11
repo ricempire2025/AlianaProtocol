@@ -1,4 +1,4 @@
-# 🌟 Aliana Protocol In-Depth Whitepaper
+# 🌟 Aliana Protocol Whitepaper
 
 > **Building a Decentralized Financial Autonomy Based on Mathematical Trust**
 >
