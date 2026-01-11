@@ -106,7 +106,7 @@ struct DynamicParams {
 | :--- | :--- | :--- |
 | `INVESTMENT_CYCLE_DAYS` | 25 | 静态收益周期 (天) |
 | `MIN_DEPOSIT_AMOUNT` | 10 USDT | 最小单笔存款金额 |
-| `MAX_DEPOSIT_AMOUNT` | 3000 USDT | **单用户钱包充值最大活跃本金限制** |
+| `MAX_DEPOSIT_AMOUNT` | 2000 USDT | **单用户钱包充值最大活跃本金限制** |
 | `MIN_WITHDRAW_AMOUNT` | 1 USDT | 最小提现金额 (动态可调) |
 | `REFERRER_MINIMUM_DEPOSIT` | 10 USDT | 成为推荐人的最低存款门槛 |
 | `ADMIN_FEE_PERCENT` | 5% | 默认管理费 |
