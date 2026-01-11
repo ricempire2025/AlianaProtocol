@@ -85,14 +85,18 @@
     *   **功能**：提取静态收益 (ROI)。
     *   **风控**：受 `dailyUserWithdrawLimit` (日限额) 限制。
     *   **费用**：扣除管理费 (`adminFeeBps`) 和储备金 (`reserveFeeBps`)。
+    *   **机制**：**由协议资金池承担**（用户收到全额申请金额，协议额外支付手续费给金库）。
 
 *   **`compoundDailyRewards(uint256 amount)`**
     *   **功能**：复投静态收益。
-    *   **优势**：复投金额计入 `activeInvestments`，产生新收益，且不扣除管理费。
+    *   **费用**：扣除管理费 (`adminFeeBps`) 和储备金 (`reserveFeeBps`)。
+    *   **优势**：复投金额计入 `activeInvestments`，产生新收益。
 
 *   **`claimNetworkRewards(uint256 amount)`**
     *   **功能**：提取动态奖励 (推荐奖 + 领导奖)。
     *   **风控**：受 `dailyUserWithdrawLimit` 限制。
+    *   **费用**：扣除管理费 (`adminFeeBps`) 和储备金 (`reserveFeeBps`)。
+    *   **机制**：**由协议资金池承担**（用户收到全额申请金额，协议额外支付手续费给金库）。
 
 ### 4.2 查询功能 (View Functions)
 *   **`getDailyRewardsBalance(address user)`**
