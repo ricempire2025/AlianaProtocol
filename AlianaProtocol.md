@@ -34,7 +34,7 @@
 
 ## 1. Executive Summary 📝
 
-**Aliana Protocol** is a next-generation Decentralized Finance (DeFi) protocol operating on the blockchain (**BSC/Arbitrum**). It reconstructs the trust mechanism of traditional finance through smart contracts, addressing three core pain points:
+**Aliana Protocol** is a next-generation Decentralized Finance (DeFi) protocol operating on the blockchain (**BSC**). It reconstructs the trust mechanism of traditional finance through smart contracts, addressing three core pain points:
 
 1.  **Black Box Operations** ⬛️
     *   *Problem*: Traditional platforms lack transparency in fund flows.
@@ -126,13 +126,13 @@ Additional **Infinite Depth** differential bonuses are provided for leaders who 
 
 | Rank | Title | Team Size Req | Team Volume Req | Differential % |
 | :--- | :--- | :--- | :--- | :--- |
-| **Rank 1** | Inviter | 50 | 2,500 USDT | 0.5% |
-| **Rank 2** | Promoter | 100 | 5,000 USDT | 1.0% |
-| **Rank 3** | Leader | 200 | 10,000 USDT | 1.5% |
-| **Rank 4** | Partner | 400 | 15,000 USDT | 2.0% |
-| **Rank 5** | Star | 800 | 25,000 USDT | 3.0% |
-| **Rank 6** | Royal Star | 1,500 | 50,000 USDT | 4.0% |
-| **Rank 7** | Crown Star | 2,500 | 100,000 USDT | 5.0% |
+| **Rank 1** | A1 | 50 | 2,500 USDT | 0.5% |
+| **Rank 2** | A2 | 100 | 5,000 USDT | 1.0% |
+| **Rank 3** | A3 | 200 | 10,000 USDT | 1.5% |
+| **Rank 4** | A4 | 400 | 15,000 USDT | 2.0% |
+| **Rank 5** | A5 | 800 | 25,000 USDT | 3.0% |
+| **Rank 6** | A6 | 1,500 | 50,000 USDT | 4.0% |
+| **Rank 7** | A7 | 2,500 | 100,000 USDT | 5.0% |
 
 ---
 
