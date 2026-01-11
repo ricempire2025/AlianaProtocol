@@ -10,7 +10,7 @@
 
 ## 1. 项目综述 (Executive Summary)
 
-Aliana Protocol 是运行在区块链（BSC/Arbitrum）上的下一代去中心化金融（DeFi）协议。它通过智能合约重构了传统理财的信任机制，解决三大核心痛点：
+Aliana Protocol 是运行在区块链（BSC）上的下一代去中心化金融（DeFi）协议。它通过智能合约重构了传统理财的信任机制，解决三大核心痛点：
 1.  **黑箱操作**: 传统平台资金流向不透明。 -> Aliana 全链上运行，每一笔资金可追溯。
 2.  **生命周期短**: 资金盘通常因恐慌性挤兑而崩盘。 -> Aliana 引入 **Health Auto-Adjustment (HAA)** 系统，像生物免疫系统一样自动调节参数抵抗风险。
 3.  **利益分配不公**: 早期参与者拿走所有红利。 -> Aliana 采用 **Proof of Contribution (PoC)** 挖矿机制，通过时间衰减和贡献权重，确保长期建设者获得治理权（ALI）。
