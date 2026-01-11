@@ -34,7 +34,7 @@
 
 ## 1. Executive Summary 📝
 
-**Aliana Protocol** is a next-generation Decentralized Finance (DeFi) protocol operating on the blockchain (**BSC**). It reconstructs the trust mechanism of traditional finance through smart contracts, addressing three core pain points:
+**Aliana Protocol** is a next-generation Decentralized Finance (DeFi) protocol operating on the blockchain (**BSC/Arbitrum**). It reconstructs the trust mechanism of traditional finance through smart contracts, addressing three core pain points:
 
 1.  **Black Box Operations** ⬛️
     *   *Problem*: Traditional platforms lack transparency in fund flows.
@@ -67,7 +67,9 @@ All financial orders in the protocol are settled based on a complete cycle of **
 
 **Yield Composition Formula**:
 
-$$ \text{Daily Claimable Amount} = \text{Principal} \times (4\% + \text{Tier Profit Rate}) $$
+```text
+Daily Claimable Amount = Principal × (4% + Tier Profit Rate)
+```
 
 ### 2.2 Dynamic Tier System 📊
 
@@ -76,7 +78,9 @@ The protocol encourages large capital users and governance token holders by esta
 **Tier Criteria**:
 User tiers are determined by **"Effective Active Amount"**:
 
-$$ \text{Effective Active Amount} = \text{Current Active Principal} + (\text{vALI Holdings} \div 10) $$
+```text
+Effective Active Amount = Current Active Principal + (vALI Holdings ÷ 10)
+```
 
 > 💡 *Note: This means even without adding more USDT, users can upgrade their account tier and enjoy high-net-worth benefits by staking ALI tokens to obtain vALI.*
 
@@ -141,10 +145,14 @@ This is the core technology distinguishing Aliana from all competitors. The prot
 The system calculates two values in real-time:
 
 1.  **FCR (Funds Coverage Ratio)**:
-    $$ FCR = \frac{\text{Current Contract Balance}}{\text{Total Principal Payable}} $$
+    ```text
+    FCR = Current Contract Balance ÷ Total Principal Payable
+    ```
 
 2.  **NFT (Net Flow Trend)**: Net flow trend over the past 24 hours.
-    $$ NFT = \text{24h Total Deposits} - \text{24h Total Withdrawals} $$
+    ```text
+    NFT = 24h Total Deposits - 24h Total Withdrawals
+    ```
 
 ### 4.2 5-Level Defense State Machine 🚦
 
